@@ -1,0 +1,94 @@
+.service-container {
+  background-color: rgb(107, 107, 212);
+  width: 75rem;
+  height: 45rem;
+  margin: 4rem 4rem;
+  border-radius: 14px;
+  padding: 0.1rem 0 0 0;
+}
+
+.service-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 2rem 4rem 5.6rem;
+  gap: 2rem;
+}
+.service-card {
+  background-color: rgba(241, 237, 237, 0.932);
+  color: black;
+  width: 20rem;
+  height: 32.5rem;
+  border-radius: 14px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.service-card:hover {
+  background-color: rgb(238, 234, 234);
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-6px);
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgb(187, 185, 185);
+  padding: 0 0 1rem 0;
+  margin: 0 1.5rem;
+}
+
+.monthly-rate {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 6rem;
+}
+
+.type {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: grey;
+}
+
+.rate {
+  font-size: 40px;
+  font-weight: 550;
+  color: rgb(36, 36, 36);
+}
+
+.monthly {
+  font-size: 12px;
+  padding: 1.5rem 0 0 0.1rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+  padding: 0 0 0 2rem;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.service-button {
+  width: 17rem;
+  height: 3.5rem;
+  background-color: rgb(61, 184, 241);
+  margin: 0rem 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 550;
+  color: white;
+  border-radius: 70px;
+  border: none;
+  cursor: pointer;
+}
+
+.service-button:hover {
+  background-color: rgb(52, 162, 226);
+}
