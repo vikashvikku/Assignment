@@ -36,11 +36,21 @@ function NasaLibrary() {
         {mediaData.map((item, index) => (
           <div key={index}>
             {item.data[0].media_type === "image" ? (
-              <img src={item.links[0].href} alt={`NASA Media ${index}`} />
+              <div>
+                ( (
+                <img
+                  src={item.links[0].href}
+                  alt={`NASA Media ${index}`}
+                />) )
+              </div>
             ) : (
-              <video controls width="400" height="300">
-                <source src={item.links[0].href} type="video/mp4" />
-              </video>
+              <div>
+                ( (
+                <video controls width="400" height="300">
+                  <source src={item.links[0].href} type="video/mp4" />
+                </video>
+                ) )
+              </div>
             )}
           </div>
         ))}

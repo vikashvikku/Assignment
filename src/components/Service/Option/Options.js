@@ -79,7 +79,9 @@ class OptionsComponent extends Component {
           href="http://victorofvalencia-blog.tumblr.com"
           target="_blank"
           className="credit"
-        ></a>
+        >
+          Photos from Victor of Valencia on tumblr
+        </a>
       </div>
     );
   }
