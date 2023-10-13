@@ -12,7 +12,7 @@ const Service = () => {
           <div className="category">
             <div className="type">Free</div>
             <div className="monthly-rate">
-              <div className="rate">₹23</div>
+              <div className="rate">₹0</div>
               <div className="monthly">/month</div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Service = () => {
           <div className="category">
             <div className="type">Free</div>
             <div className="monthly-rate">
-              <div className="rate">₹23 </div>
+              <div className="rate">₹267 </div>
               <div className="monthly"> /month</div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Service = () => {
           <div className="category">
             <div className="type">Free</div>
             <div className="monthly-rate">
-              <div className="rate">₹23</div>
+              <div className="rate">₹732</div>
               <div className="monthly">/month</div>
             </div>
           </div>

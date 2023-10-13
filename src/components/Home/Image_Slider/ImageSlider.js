@@ -26,10 +26,8 @@ const ImageSlider = () => {
 
   return (
     <section className="section">
-      <div className="title">
-        <h2>
-          <span>/</span>Image Slider
-        </h2>
+      <div className="title-slider">
+        <h2>Image Slider</h2>
       </div>
       <div className="section-center">
         {photos.map((person, personIndex) => {
@@ -46,8 +44,8 @@ const ImageSlider = () => {
           }
           return (
             <article className={position} key={id}>
-              <img src={image} alt="OS" className="person-img" />
-              <p className="title">{head}</p>
+              <img src={image} alt="OS" className="os-img" />
+              <div className="title">{head}</div>
               <p className="text">{text}</p>
             </article>
           );

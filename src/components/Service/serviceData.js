@@ -7,22 +7,22 @@ const service = [
   {
     id: 2,
     name: "BK",
-    type: true,
+    type: false,
   },
   {
     id: 3,
     name: "CK",
-    type: true,
+    type: false,
   },
   {
     id: 4,
     name: "DK",
-    type: true,
+    type: false,
   },
   {
     id: 5,
     name: "EK",
-    type: true,
+    type: false,
   },
 ];
 

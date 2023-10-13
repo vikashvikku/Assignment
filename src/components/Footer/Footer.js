@@ -13,12 +13,15 @@ const Footer = () => {
           <div className="footer_subheading">
             <div className="footer_header">ABOUT</div>
             <div className="about">
-              Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the
-              upcoming programmers with the code. Scanfcode focuses on providing
-              the most efficient code or snippets as the code wants to be
-              simple. We will help programmers build up concepts in different
-              programming languages that include C, C++, Java, HTML, CSS,
-              Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.
+              My name is Vikash Kumar. I am from Gaya Bihar, India. I have
+              completed my B.Tech from Lovely Professional University, punjab. I
+              have also done Internship of 5 months in L&T Technology Services,
+              Mysore, Karnataka. Where i have done several projects including
+              "Smart Switch", "GTF Robot Framework" and more. I also have done
+              several projects in college time in various programming languages,
+              which shows that i am versatile with any technology. But for the
+              carrier i choses the frontend development with latest Reactjs
+              technology using redux and more tehcnology.
             </div>
           </div>
           <div>

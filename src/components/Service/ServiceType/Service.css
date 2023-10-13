@@ -1,7 +1,7 @@
 .service-container {
   background-color: rgb(107, 107, 212);
   width: 75rem;
-  height: 45rem;
+  height: 47rem;
   margin: 4rem 4rem;
   border-radius: 14px;
   padding: 0.1rem 0 0 0;
@@ -17,7 +17,7 @@
   background-color: rgba(241, 237, 237, 0.932);
   color: black;
   width: 20rem;
-  height: 32.5rem;
+  height: 39.5rem;
   border-radius: 14px;
 
   display: flex;

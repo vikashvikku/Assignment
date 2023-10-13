@@ -59,11 +59,11 @@ const CardSlider = () => {
                   className="cardImage"
                 />
               </div>
-              <div className="name">Vikash Kumar</div>
+              <div className="name">Prabhat Sharma</div>
               <div className="position"> CEO</div>
               <div className="bio">
-                I am frontend develoer Lamborghini Mercy Your chick she so
-                thirsty I'm in that two seat Lambo
+                Started this company nearly 4 years ago, Now looking forward for
+                better achievement.
               </div>
               <div className="rotation">
                 <div>
@@ -114,16 +114,16 @@ const CardSlider = () => {
             <>
               <div style={myStyle}>
                 <img
-                  src="https://static.india.com/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-18-at-7.48.15-PM.jpeg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
                   alt="img"
                   className="cardImage"
                 />
               </div>
-              <div className="name">Vikash Kumar</div>
-              <div className="position"> CEO</div>
+              <div className="name">Aman Kumar</div>
+              <div className="position"> CTO</div>
               <div className="bio">
-                I am frontend develoer Lamborghini Mercy Your chick she so
-                thirsty I'm in that two seat Lambo
+                15+ years experience in tech. Previously worked in Google,
+                Microsoft, and 6 more companies.
               </div>
               <div className="rotation">
                 <div onClick={handleClick}>
@@ -185,16 +185,16 @@ const CardSlider = () => {
             <>
               <div style={myStyle}>
                 <img
-                  src="https://static.india.com/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-18-at-7.48.15-PM.jpeg"
+                  src="https://cdn.britannica.com/05/236505-050-17B6E34A/Elon-Musk-2022.jpg"
                   alt="img"
                   className="cardImage"
                 />
               </div>
-              <div className="name">Vikash Kumar</div>
-              <div className="position"> CEO</div>
+              <div className="name">Saket Singh</div>
+              <div className="position"> Tech Lead</div>
               <div className="bio">
-                I am frontend develoer Lamborghini Mercy Your chick she so
-                thirsty I'm in that two seat Lambo
+                I am fullstack developer having more tha 10 years experience in
+                more than 3 companies.
               </div>
               <div className="rotation">
                 <div>
