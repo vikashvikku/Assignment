@@ -1,12 +1,11 @@
 .nasa-input {
-  padding: 0 0 0 2rem;
+  padding: 1rem 0 0 9rem;
 }
 
 .nasa-api {
   margin: 2rem 5rem;
   display: flex;
   flex-direction: row;
-  /* gap: 4rem; */
   justify-content: space-between;
 }
 

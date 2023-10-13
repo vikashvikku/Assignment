@@ -1,11 +1,10 @@
-// src/components/NasaLibrary.js
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./NasaLibrary.css";
 
 function NasaLibrary() {
   const [mediaData, setMediaData] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("space"); // Default search query
+  const [searchQuery, setSearchQuery] = useState("space");
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -14,7 +13,7 @@ function NasaLibrary() {
       .get(apiUrl)
       .then((response) => {
         setMediaData(response.data.collection.items);
-        setError(null); // Clear any previous errors
+        setError(null);
       })
       .catch((error) => {
         console.error("Error fetching NASA data:", error);
@@ -32,7 +31,7 @@ function NasaLibrary() {
   return (
     <div>
       <h1>NASA Image and Video Library</h1>
-      <div>
+      <div className="nasa-input">
         <input
           type="text"
           placeholder="Search NASA library..."
@@ -40,6 +39,9 @@ function NasaLibrary() {
         />
       </div>
       {error && <p>{error}</p>}
+
+      {/* Showing Images */}
+
       <div className="nasa-api">
         <div className="nasa-img">
           <h2 className="nasa-text">Images</h2>
@@ -55,6 +57,9 @@ function NasaLibrary() {
             ))}
           </div>
         </div>
+
+        {/* Showing Videos */}
+
         <div className="nasa-vid">
           <h2 className="nasa-text">Videos</h2>
           <div>

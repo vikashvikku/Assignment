@@ -2,7 +2,7 @@
   background-color: rgb(107, 107, 212);
   width: 75rem;
   height: 47rem;
-  margin: 4rem 4rem;
+  margin: 6rem 4rem;
   border-radius: 14px;
   padding: 0.1rem 0 0 0;
 }
@@ -39,6 +39,10 @@
   border-bottom: 1px solid rgb(187, 185, 185);
   padding: 0 0 1rem 0;
   margin: 0 1.5rem;
+}
+
+.cross {
+  opacity: 0.5;
 }
 
 .monthly-rate {

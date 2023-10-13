@@ -1,7 +1,6 @@
 import React from "react";
 import "./Service.css";
 import CheckIcon from "@mui/icons-material/Check";
-// import CloseIcon from "@mui/icons-material/Close";
 import ClearIcon from "@mui/icons-material/Clear";
 
 const Service = () => {
@@ -29,16 +28,16 @@ const Service = () => {
             <div>
               <CheckIcon /> Community Access
             </div>
-            <div>
+            <div className="cross">
               <ClearIcon /> Unlimited Private Projects
             </div>
-            <div>
+            <div className="cross">
               <ClearIcon /> Dedicated Phone Support
             </div>
-            <div>
+            <div className="cross">
               <ClearIcon /> Free Subdomain
             </div>
-            <div>
+            <div className="cross">
               <ClearIcon /> Monthly Status Reports
             </div>
           </div>
@@ -76,7 +75,7 @@ const Service = () => {
             <div>
               <CheckIcon /> Free Subdomain
             </div>
-            <div>
+            <div className="cross">
               <ClearIcon /> Monthly Status Reports
             </div>
           </div>

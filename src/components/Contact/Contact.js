@@ -30,7 +30,8 @@ class ContactUs extends React.Component {
 
           <label htmlFor="customerPhone">PHONE</label>
           <input
-            type="tel"
+            className="phone"
+            type="number"
             id="customerPhone"
             name="customerPhone"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"

@@ -15,13 +15,12 @@ const Footer = () => {
             <div className="about">
               My name is Vikash Kumar. I am from Gaya Bihar, India. I have
               completed my B.Tech from Lovely Professional University, punjab. I
-              have also done Internship of 5 months in L&T Technology Services,
-              Mysore, Karnataka. Where i have done several projects including
-              "Smart Switch", "GTF Robot Framework" and more. I also have done
+              have also completed Internship in L&T Technology Services, Mysore,
+              Karnataka. Where i have done several projects. I also have done
               several projects in college time in various programming languages,
-              which shows that i am versatile with any technology. But for the
-              carrier i choses the frontend development with latest Reactjs
-              technology using redux and more tehcnology.
+              which shows that i am versatile with any technology. But i love to
+              work as frontend developer with latest Reactjs technology using
+              redux and more tehcnology.
             </div>
           </div>
           <div>

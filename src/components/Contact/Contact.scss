@@ -16,19 +16,19 @@ $font-color: #2a293e;
 body {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg")
     center center no-repeat;
-  // background-size: cover;
-  // width: 100vw;
-  // height: 100vh;
+  background-size: cover;
+  width: 98.5vw;
+  height: 100vw;
   // display: grid;
-  // align-items: center;
-  // justify-items: center;
-  // font-size: $font-size;
-  // font-family: $font-face;
-  // color: $font-color;
+  align-items: center;
+  justify-items: center;
+  font-size: $font-size;
+  font-family: $font-face;
+  color: $font-color;
 }
 
 .contact-us {
-  margin: 4rem 0 0 0;
+  margin: 10.35rem 0 0 0;
   background: $form-bg;
   padding: 50px 100px;
   border-top: 10px solid $form-border;
@@ -47,6 +47,11 @@ textarea {
 input {
   margin-bottom: $font-size * 2;
 }
+
+// .phone {
+//   -moz-appearance: textfield;
+//   appearance: none;
+// }
 
 h3 {
   font-weight: normal;
@@ -96,12 +101,6 @@ button {
   border-bottom: 2px solid transparent;
   outline: none;
 }
-
-// &:hover {
-//   background: inherit;
-//   color: $form-border;
-//   border-bottom: 2px solid $form-border;
-// }
 
 ::selection {
   background: rgb(255, 199, 184);
