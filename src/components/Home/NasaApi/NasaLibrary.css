@@ -1,0 +1,33 @@
+.nasa-input {
+  padding: 0 0 0 2rem;
+}
+
+.nasa-api {
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: row;
+  /* gap: 4rem; */
+  justify-content: space-between;
+}
+
+.nasa-img {
+  margin: 1rem 0 0 0;
+}
+.nasa-text {
+  margin: 0rem 0 2rem 0;
+}
+
+.nasa-photo {
+  width: 600px;
+  height: 300px;
+  margin: 0 0 2rem 0;
+  border-radius: 14px;
+}
+
+.nasa-vid {
+  margin: 1rem 0 0 0;
+}
+.nasa-vid video {
+  border-radius: 14px;
+  margin-bottom: 2rem;
+}

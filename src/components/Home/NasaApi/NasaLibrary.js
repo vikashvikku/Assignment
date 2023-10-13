@@ -1,6 +1,7 @@
 // src/components/NasaLibrary.js
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./NasaLibrary.css";
 
 function NasaLibrary() {
   const [mediaData, setMediaData] = useState([]);
@@ -21,6 +22,13 @@ function NasaLibrary() {
       });
   }, [searchQuery]);
 
+  const images = mediaData.filter(
+    (item) => item.data[0].media_type === "image"
+  );
+  const videos = mediaData.filter(
+    (item) => item.data[0].media_type === "video"
+  );
+
   return (
     <div>
       <h1>NASA Image and Video Library</h1>
@@ -32,28 +40,33 @@ function NasaLibrary() {
         />
       </div>
       {error && <p>{error}</p>}
-      <div>
-        {mediaData.map((item, index) => (
-          <div key={index}>
-            {item.data[0].media_type === "image" ? (
-              <div>
-                ( (
+      <div className="nasa-api">
+        <div className="nasa-img">
+          <h2 className="nasa-text">Images</h2>
+          <div>
+            {images.map((item, index) => (
+              <div key={index}>
                 <img
                   src={item.links[0].href}
                   alt={`NASA Media ${index}`}
-                />) )
+                  className="nasa-photo"
+                />
               </div>
-            ) : (
-              <div>
-                ( (
-                <video controls width="400" height="300">
+            ))}
+          </div>
+        </div>
+        <div className="nasa-vid">
+          <h2 className="nasa-text">Videos</h2>
+          <div>
+            {videos.map((item, index) => (
+              <div key={index}>
+                <video controls width="500" height="300">
                   <source src={item.links[0].href} type="video/mp4" />
                 </video>
-                ) )
               </div>
-            )}
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );
